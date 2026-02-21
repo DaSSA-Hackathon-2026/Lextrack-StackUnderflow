@@ -189,23 +189,7 @@ After publishing, the system generates realistic Reddit-style comments using a p
 - **Single batched prompt:** Combining all 5 subreddits into one prompt risks quality degradation and token limits. Individual calls with full context produce better results
 - **Reddit API (authenticated):** Would require OAuth setup and app registration. Public JSON endpoints provide all needed data without authentication overhead
 
----
 
-
-### Scoring Breakdown Visualization
-
-Each subreddit card in the UI displays three color-coded score bars:
-- **Semantic Relevance** (red bar) — Topic alignment
-- **Self-Promo Tolerance** (indigo bar) — Promotion friendliness
-- **Activity Level** (amber bar) — Community engagement
-
-### Limitations
-
-- Evaluation is primarily qualitative (post quality) rather than quantitative (accuracy on a benchmark)
-- Confidence scores are model-estimated, not validated against actual Reddit post performance
-- No A/B testing of generated posts vs. human-written posts (future work)
-
----
 
 ## 7. Business Impact & Actionability
 
